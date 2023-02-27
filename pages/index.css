@@ -80,7 +80,7 @@
   right: 80px;
 }
 
-.header__footer_content_hours {
+.header__footer-hours {
   list-style: none;
   font-family: "inter", arial, sans-serif;
   font-weight: 500;
@@ -92,7 +92,7 @@
   padding-left: 0;
 }
 
-.header__footer_content_address {
+.header__footer-address {
   font-family: "inter", arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -155,9 +155,6 @@
   justify-content: space-between;
   color: #fff;
 }
-.recipes__iframe_type_aeropress {
-  border: none;
-}
-recipes__iframe_type_french-press {
+.recipes__iframe {
   border: none;
 }
