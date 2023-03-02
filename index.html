@@ -111,7 +111,53 @@
             </div>
           </div>
         </section>
-        <section class="reservations" id="section-reservations"></section>
+        <section class="reservations" id="section-reservations">
+          <div class="reservation">
+            <h1 class="reservation__title">Book a table</h1>
+            <form>
+              <fieldset class="form__fieldset">
+                <label for="name-and-surname">Name</label>
+                <input
+                  type="text"
+                  id="name-and-surname"
+                  class="form__input"
+                  placeholder="Name Surname"
+                />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <label for="number-of-guests">Number of guests</label>
+                <input
+                  type="text"
+                  id="number-of-guests"
+                  class="form__input"
+                  placeholder="1-8"
+                />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <label for="date-and-time">Date & time</label>
+                <input
+                  type="datetime-local"
+                  id="date-and-time"
+                  class="form-input"
+                />
+              </fieldset>
+              <fieldset>
+                <label for="email">Your email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-input"
+                  placeholder="email@email.com"
+                />
+              </fieldset>
+              <button class="button" type="submit">Book a table</button>
+              <fieldset>
+                <input type="checkbox" id="terms-of-use" class="checkbox" />
+                <label for="terms-of-use">I agree with the terms of use</label>
+              </fieldset>
+            </form>
+          </div>
+        </section>
         <section class="menu" id="section-menu"></section>
         <section class="about" id="section-about"></section>
       </main>

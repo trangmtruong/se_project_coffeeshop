@@ -158,3 +158,26 @@
 .recipes__iframe {
   border: none;
 }
+
+.reservations {
+  background-image: url(/images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form__input {
+  border-radius: 4px;
+}
+.button {
+  border-radius: 4px;
+}
+.button:hover {
+  /*opacity
+changes from 100%to 70%. Add a smooth transition for the opacity property*/
+}
+.checkbox {
+  border-radius: 2px;
+  background-color: #2f80ed;
+  background-image: url(/images/check.svg);
+}
