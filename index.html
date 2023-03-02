@@ -41,7 +41,7 @@
               <a class="nav__link" href="#section-recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#section-reservations">Book a table</a>
+              <a class="nav__link" href="#section-reservation">Book a table</a>
             </li>
             <li>
               <a class="nav__link" href="#section-about">Contacts</a>
@@ -111,49 +111,68 @@
             </div>
           </div>
         </section>
-        <section class="reservations" id="section-reservations">
+        <section class="reservation" id="section-reservation">
           <div class="reservation">
             <h1 class="reservation__title">Book a table</h1>
-            <form>
+            <form class="reservation__form">
               <fieldset class="form__fieldset">
-                <label for="name-and-surname">Name</label>
+                <label class="fieldset__label" for="name-and-surname"
+                  >Name *</label
+                >
                 <input
                   type="text"
                   id="name-and-surname"
                   class="form__input"
                   placeholder="Name Surname"
+                  required
                 />
               </fieldset>
               <fieldset class="form__fieldset">
-                <label for="number-of-guests">Number of guests</label>
+                <label class="fieldset__label" for="number-of-guests"
+                  >Number of guests *</label
+                >
                 <input
                   type="text"
                   id="number-of-guests"
                   class="form__input"
                   placeholder="1-8"
+                  required
                 />
               </fieldset>
               <fieldset class="form__fieldset">
-                <label for="date-and-time">Date & time</label>
+                <label fclass="fieldset__label" or="date-and-time"
+                  >Date & time *</label
+                >
                 <input
                   type="datetime-local"
                   id="date-and-time"
                   class="form-input"
+                  required
                 />
               </fieldset>
-              <fieldset>
-                <label for="email">Your email</label>
+              <fieldset class="form__fieldset">
+                <label class="fieldset__label" for="email">Your email *</label>
                 <input
                   type="email"
                   id="email"
                   class="form-input"
                   placeholder="email@email.com"
+                  required
                 />
               </fieldset>
-              <button class="button" type="submit">Book a table</button>
-              <fieldset>
-                <input type="checkbox" id="terms-of-use" class="checkbox" />
-                <label for="terms-of-use">I agree with the terms of use</label>
+              <button
+                class="form__fieldset form__fieldset_button"
+                type="submit"
+              >
+                Book a table
+              </button>
+              <fieldset class="form__fieldset form__fielset_terms-of-use">
+                <label class="checkbox-and-label">
+                  <input type="checkbox" id="terms-of-use" class="checkbox" />
+                  <label class="fielset__label_button" for="terms-of-use"
+                    >I agree with the terms of use</label
+                  >
+                </label>
               </fieldset>
             </form>
           </div>
