@@ -180,9 +180,12 @@
   margin-bottom: 0;
   text-align: center;
 }
-.reservation__form {
+
+.form {
   padding-top: 80px;
   padding-bottom: 120px;
+}
+.reservation__form {
   margin-top: 0;
 }
 
@@ -204,14 +207,14 @@ input {
   border-radius: 4px;
 }
 
-.fieldset__label {
+.form__fieldset_label {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
 }
-.fielset__label_button {
+.checkbox-and-label__label {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -226,6 +229,7 @@ input {
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  border: none;
   border-color: #838383;
 }
 
