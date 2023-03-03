@@ -2,9 +2,6 @@
   padding-top: 80px;
   padding-bottom: 120px;
 }
-.reservation__form {
-  margin-top: 0;
-}
 
 .form__fieldset {
   display: flex;
@@ -64,18 +61,4 @@ input {
 }
 .form__fielset_terms {
   flex-direction: row;
-}
-
-.checkbox {
-  border-radius: 2px;
-  background-color: #2f80ed;
-  background-image: url(/images/check.svg);
-  width: 20px;
-  height: 20px;
-}
-
-.checkbox-and-label {
-  display: flex;
-  gap: 12px;
-  margin: auto;
 }

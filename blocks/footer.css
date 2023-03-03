@@ -11,6 +11,11 @@
   padding-right: 100px;
 }
 
+.footer__logo {
+  width: 116px;
+  height: 21px;
+}
+
 .footer__list {
   list-style: none;
   font-family: "Inter";
