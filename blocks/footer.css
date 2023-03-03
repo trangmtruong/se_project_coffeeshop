@@ -3,11 +3,6 @@
   color: #fff;
 }
 
-.footer__logo {
-  width: 116px;
-  height: 21px;
-}
-
 .footer__content {
   display: flex;
   justify-content: space-between;
