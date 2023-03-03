@@ -19,16 +19,3 @@
   margin-bottom: 0;
   text-align: center;
 }
-.checkbox {
-  border-radius: 2px;
-  background-color: #2f80ed;
-  background-image: url(/images/check.svg);
-  width: 20px;
-  height: 20px;
-}
-
-.checkbox-and-label {
-  display: flex;
-  gap: 12px;
-  margin: auto;
-}
