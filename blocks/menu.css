@@ -3,12 +3,13 @@
   background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 .menu__title {
   text-align: center;
-  font-family: "Inter";
+  font-family: "Inter", arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -19,7 +20,7 @@
 
 .menu__subtitle {
   text-align: center;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -30,8 +31,8 @@
 }
 .menu__cards {
   display: flex;
-  justify-content: space-evenly;
-  list-style: none;
+  justify-content: center;
   gap: 100px;
   flex-flow: row wrap;
+  margin-top: 100px;
 }

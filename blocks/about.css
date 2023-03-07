@@ -7,6 +7,7 @@
   }
   100% {
     transform: scale(1.4);
+    opacity: 0;
   }
 }
 
@@ -26,9 +27,10 @@
 .about__title {
   max-width: 251px;
   margin-top: 0;
+  margin-bottom: 0;
   padding-top: 100px;
   padding-left: 80px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -40,9 +42,8 @@
   max-width: 660px;
   padding-top: 119px;
   padding-bottom: 173px;
-  gap: 20px;
   padding-right: 80px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -50,7 +51,10 @@
 }
 .about__paragraph {
   display: block;
+  margin: 0;
+  padding-bottom: 20px;
 }
+
 .about__circle {
   background-color: #2f80ed;
   width: 426px;

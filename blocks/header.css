@@ -3,10 +3,10 @@
   min-height: 720px;
   max-height: 800px;
   position: relative;
+  background-image: url(../images/background_header.svg);
 }
 
 .header__title {
-  display: block;
   max-width: 729px;
   margin: 202px 0px 0px 80px;
   font-family: "noto serif", "Times New Roman", serif;
@@ -16,10 +16,20 @@
   line-height: 72px;
   color: #2f80ed;
 }
+
+.header__span {
+  display: block;
+  font-family: "Inter", arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  color: #000;
+}
+
 .header__description {
   max-width: 683px;
-  margin-top: 28px;
-  margin-left: 80px;
+  margin: 28px 0 0 80px;
   font-family: "noto serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
@@ -39,21 +49,15 @@
   bottom: 40px;
   left: 80px;
   right: 80px;
-}
-
-.header__footer-hours {
-  list-style: none;
   font-family: "inter", arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  margin-left: 0;
-  margin-bottom: 0;
-  padding-left: 0;
 }
 
 .header__footer-address {
+  margin: 0;
   font-family: "inter", arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
