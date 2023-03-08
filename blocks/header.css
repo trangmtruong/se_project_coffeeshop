@@ -4,7 +4,7 @@
   max-height: 800px;
   position: relative;
   background-image: url(../images/background_header.svg);
-  z-index: 0;
+  z-index: 1;
 }
 
 .header__title {
@@ -19,7 +19,6 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
-  z-index: 1;
 }
 
 .header__span {
