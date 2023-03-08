@@ -4,6 +4,7 @@
   max-height: 800px;
   position: relative;
   background-image: url(../images/background_header.svg);
+  z-index: 0;
 }
 
 .header__title {
@@ -18,6 +19,7 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
+  z-index: 1;
 }
 
 .header__span {
@@ -45,6 +47,7 @@
   max-height: 568px;
   right: 5px;
   top: 124px;
+  z-index: -1;
 }
 .header__footer {
   display: flex;
