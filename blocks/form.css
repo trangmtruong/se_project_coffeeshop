@@ -16,24 +16,12 @@
 .form__fieldset:last-of-type {
   flex-direction: row;
   padding-bottom: 0;
-  display: flex;
   gap: 12px;
-  margin: auto;
+  justify-content: center;
 }
 .form__input {
   border-radius: 4px;
   height: 60px;
-}
-
-.form__fieldset-label {
-  font-family: "Inter", arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.form__input {
   box-sizing: border-box;
   font-family: "Inter", arial, sans-serif;
   font-style: normal;
@@ -42,6 +30,14 @@
   line-height: 30px;
   color: #838383;
   border-color: #838383;
+}
+
+.form__label {
+  font-family: "Inter", arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__button {
